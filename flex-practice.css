@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -72,4 +76,21 @@
 }
 .article {
   padding: 120px;
+}
+.mainp {
+  display: flex;
+}
+.leftside {
+  width: 3%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rightside {
+  width: 97%;
+  float: right;
+}
+.icon {
+  margin-bottom: 27px;
 }
