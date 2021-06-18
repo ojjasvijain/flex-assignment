@@ -85,15 +85,14 @@
   float: left;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  flex-grow: 1;
 }
+
 .rightside {
   width: 97%;
   float: right;
 }
-.icon {
-  margin-bottom: 27px;
-}
+
 .article {
   background-color: whitesmoke;
 }
